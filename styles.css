@@ -8,12 +8,10 @@
   background-color: #1f2937;
   color: white;
   padding: 50px;
-  padding-left: 100px;
-  padding-right: 100px;
 }
 
 .righter {
-  margin-right: 100px;
+  margin-right: 60px;
 }
 
 .header-logo {
@@ -24,6 +22,7 @@
 
 .awesome {
   font-size: 48px;
+  font-weight: bold;
 }
 
 .awesome,
@@ -79,4 +78,149 @@
 .placeholder {
   background-color: rgb(160, 179, 194);
   padding: 70px;
+}
+
+/*
+/*
+/*
+*/
+
+.second-segment {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+
+.titlerandom {
+  /* border: 1px solid #e300e3; */
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: bold;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.main-square {
+  /* border: 1px solid #34bd4a; */
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+}
+
+.square1,
+.square2,
+.square3,
+.square4 {
+  border: 3px solid #3882f6;
+  padding: 70px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.squarecomplete1,
+.squarecomplete2,
+.squarecomplete3,
+.squarecomplete4 {
+  padding: 60px;
+  color: #1f2937;
+}
+
+.squarequote1,
+.squarequote2,
+.squarequote3,
+.squarequote4 {
+  padding-top: 10px;
+  /* background-color: #34bd4a; */
+  display: flex;
+  align-content: flex-end;
+  text-align: center;
+}
+
+/*
+/*
+/*
+*/
+
+.third-segment {
+  background-color: #e5e7eb;
+  /* border: 3px solid #e300e3; */
+}
+
+.citation {
+  flex-direction: column;
+  padding: 50px;
+
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+.citation-phrase {
+  display: flex;
+  text-align: center;
+  font-size: 36px;
+  font-weight: light;
+  color: #1f2937;
+}
+.citation-author {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+  color: #1f2937;
+  font-size: larger;
+  font-weight: bold;
+}
+
+/*
+/*
+/*
+*/
+
+.fourth-segment {
+  padding: 50px;
+}
+.insides {
+  background-color: #3882f6;
+  color: #f9faf8;
+  display: flex;
+  justify-content: space-between;
+
+  margin: 50px solid rgb(209, 42, 42);
+}
+.particular {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 50px;
+  padding-left: 100px;
+}
+
+.signup2 {
+  border: 1px solid #fff;
+  text-align: center;
+  margin: 50px;
+  margin-right: 150px;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.call-action {
+  font-weight: bold;
+  font-size: large;
+}
+
+/*
+/*
+/*
+*/
+
+.fifth-segment {
+  background-color: #1f2937;
+  padding: 20px;
+}
+
+.copyright {
+  color: #f9faf8;
+  text-align: center;
 }
